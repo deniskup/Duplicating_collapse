@@ -1,0 +1,4 @@
+automata-lib
+pyformlang
+graphviz          # python wrapper
+copy
