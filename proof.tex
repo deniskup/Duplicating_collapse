@@ -246,9 +246,9 @@ This results in the following $\varepsilon$-NFA:
 %accepting outgoing edge from n0, going diagonally up right to an invisible state
 %to n0+(0.5,0.5) is the same as n0++ but with a different label
 \path (n0) edge[->] node[above] {$b^*$} ++(1,1);
-\path (n2) edge[->] node[above] {$db^*$} ++(1,1);
+\path (n2) edge[->] node[above left, xshift=8pt, yshift=-5pt] {$(\varepsilon+d)b^*$} ++(1.2,.9);
 \path (n1) edge[->] node[above] {$c^*$} ++(1,1);
-\path (n4) edge[->] node[right] {$ea^*$} ++(1,1);
+\path (n4) edge[->] node[above right,, xshift=7pt, yshift=-1pt] {$(\varepsilon+e)a^*$} ++(1,1);
 \path (n5) edge[->] node[right] {$b^*$} ++(1,1);
 \path (g1) edge[->] node[above] {$g^*$} ++(1,1);
 \path (g2) edge[->] node[above] {$b^*$} ++(1,1);
